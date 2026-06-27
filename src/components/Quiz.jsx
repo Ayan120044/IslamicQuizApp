@@ -16,7 +16,7 @@ const Quiz = () => {
             <div className="min-h-[calc((100vh-4rem)-14.5rem)] flex justify-center">
                 <div className="w-full sm:w-150  rounded-lg bg-white shadow-lg sm:my-16">
                     <div className="px-12 py-8 flex flex-col justify-center items-center">
-                        <div className="bg-[url('./lg.png')] size-50 rounded-2xl bg-cover bg-center"></div>
+                        <div className="bg-[url('/lg.png')] size-50 rounded-2xl bg-cover bg-center"></div>
                         <h1 className="font-cg font-black text-4xl text-center">Islamic Knowledge Quiz</h1>
                         <p className="text-sm opacity-70 mt-4 mb-6 text-center">
                             Answer 24 questions covering Quran, Prophets, History, Five Pillars, Ramadan, Hajj, and more. Each question has a
