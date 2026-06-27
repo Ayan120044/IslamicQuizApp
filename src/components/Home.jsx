@@ -16,7 +16,7 @@ const Home = () => {
                             <RiSparkling2Line />
                         </div>
                         <div>
-                            <h1 className="font-cg md:text-5xl text-4xl font-extrabold">yest Your Islamic Knowledge</h1>
+                            <h1 className="font-cg md:text-5xl text-4xl font-extrabold">Test Your Islamic Knowledge</h1>
                             <p className="text-gray-500 mt-4 text-sm md:text-lg">
                                 Embark on a spiritual journey of learning. Challenge yourself with questions from the Quran, Sunnah, Islamic history,
                                 and more — growing closer to your faith with every answer.
