@@ -64,7 +64,7 @@ const Result = () => {
                     Download Result
                 </button>
                 <div className="px-12 py-4 flex flex-col justify-center items-center">
-                    <div className="bg-[url('./lg.png')] size-50 rounded-2xl bg-cover bg-center"></div>
+                    <div className="bg-[url('/lg.png')] size-50 rounded-2xl bg-cover bg-center"></div>
 
                     <h1 className="relative -top-6 font-cg font-black text-4xl text-center">Quiz Complete!</h1>
                     <p className="text-5xl text-green-600 font-bold text-center">{animatedPercentage}% </p>
