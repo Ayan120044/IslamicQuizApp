@@ -10,7 +10,6 @@ const About = () => {
                 <h1 className="sm:text-4xl text-3xl font-cg font-extrabold">About IslamicVibe</h1>
                 <p className="mt-3 text-sm sm:text-base opacity-80">Our mission, story, and vision.</p>
             </div>
-
             <div className="p-8 md:px-8  lg:px-32 flex-col md:flex-row flex gap-6 min-h-[calc((100vh-4rem)-14.5rem)] w-full justify-center items-center md:items-stretch lg:items-center">
                 <div className=" p-8 rounded-xl shadow-xl bg-white w-full md:min-h-72 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
                     <div className="flex gap-4 items-center">
