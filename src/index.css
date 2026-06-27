@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+    --font-cg: "Cormorant Garamond", serif;
+}
+
+@theme {
+    --font-sans: "Inter", sans-serif;
+    --font-noni: "Nunito Sans", sans-serif;
+}
+
+body {
+    font-family: var(--font-sans);
+}
+
+html,
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@media print {
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+
+    .print-container {
+        width: 100%;
+        min-height: auto;
+
+        display: flex;
+        justify-content: center;
+
+        background: white !important;
+        background-image: none !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .print-card {
+        width: 190mm !important;
+        min-height: 277mm;
+
+        background: rgb(193, 247, 185) !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        box-shadow: none !important;
+
+        overflow: hidden;
+
+        break-inside: avoid;
+        page-break-inside: avoid;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
